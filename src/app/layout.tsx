@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Startup Landing Page",
-  description: "A landing page for an AI startup created with Frontend Tribe",
+  title: "Rohan Babbar",
+  description: "My Portfolio Site.",
 };
 
 export default function RootLayout({
