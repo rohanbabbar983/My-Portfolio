@@ -1,5 +1,3 @@
-"use client"
-
 export const Footer = () => {
   return (
     <footer className="border-t border-white/50 text-white py-8">

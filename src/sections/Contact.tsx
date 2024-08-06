@@ -1,5 +1,3 @@
-"use client"
-
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import stars from "../assets/stars.png";
 import gridlines from "../assets/grid-lines.png"

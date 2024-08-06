@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { useState } from "react";
 import { FaLink } from "react-icons/fa";
 import { DotLottiePlayer } from "@dotlottie/react-player";
@@ -13,7 +13,7 @@ const tabs = [
     backgroundSizeX: 150,
     description: "An advanced hotel booking and management platform with seamless user experience, real-time booking updates, and robust hotel management features. It integrates payment processing and media management for a comprehensive solution.",
     duration: "Jun 2024 - July 2024",
-    image: "/bookings-com.png",
+    image: "/Booking.png",
     url: "https://bookings-com.onrender.com/", // Replace with your actual URL
   },
   {
@@ -81,7 +81,9 @@ export const Features = () => {
             <Image
               src={selectedTab.image}
               alt={selectedTab.title}
-              className="w-full object-contain md:w-1/3 rounded-lg"
+              width={500}
+              height={500}
+              className="object-contain rounded-lg"
             />
             <div className="mt-5 md:mt-0 md:ml-10 text-center md:text-left">
               <a target="_blank" href={selectedTab.url} className="text-2xl flex justify-center md:justify-start items-center gap-1 font-semibold">{selectedTab.title}<FaLink size={20}/>

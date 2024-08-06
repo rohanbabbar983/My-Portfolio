@@ -1,4 +1,3 @@
-"use client"
 import Contact from "@/sections/Contact";
 import { Education } from "@/sections/Education";
 import { Features } from "@/sections/Features";
