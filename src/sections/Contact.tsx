@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="relative">
         <h2 className="text-4xl font-bold mb-4 text-center">Let"s Connect!</h2>
         <p className="text-white/70 text-lg max-w-2xl mx-auto tracking-tight md:text-xl text-center mt-5">
-          Feel free to contact me for any inquiries, collaborations, or just to say hello. I’m always open to discussing new projects, sharing insights, or exploring opportunities.
+          Feel free to contact me for any inquiries, collaborations, or just to say hello. I am always open to discussing new projects, sharing insights, or exploring opportunities.
         </p>
         <div className="flex justify-center space-x-6 mt-5">
           <a
