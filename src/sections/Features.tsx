@@ -53,7 +53,7 @@ export const Features = () => {
         </h2>
         <p className="text-white/70 text-lg max-w-2xl mx-auto tracking-tight text-center mt-5">
           Check out my work! These samples highlight my skills and the
-          innovative solutions I've crafted for various challenges.
+          innovative solutions I have crafted for various challenges.
         </p>
         <div className="mt-10 flex flex-col md:flex-row gap-2">
           {tabs.map((tab) => (
