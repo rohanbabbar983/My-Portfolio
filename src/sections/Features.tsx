@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { FaLink } from "react-icons/fa";
 import { DotLottiePlayer } from "@dotlottie/react-player";
+import Image from "next/image";
 const tabs = [
   {
     icon: "/assets/lottie/vroom.lottie",
@@ -77,7 +78,7 @@ export const Features = () => {
         </div>
         <div className="mt-10 ">
           <div className="border border-white/15 rounded-xl p-5 flex flex-col md:flex-row items-center">
-            <img
+            <Image
               src={selectedTab.image}
               alt={selectedTab.title}
               className="w-full object-contain md:w-1/3 rounded-lg"

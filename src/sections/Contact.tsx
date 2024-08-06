@@ -1,4 +1,6 @@
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+"use client"
+
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import stars from "../assets/stars.png";
 import gridlines from "../assets/grid-lines.png"
 
@@ -6,18 +8,18 @@ const Contact = () => {
   return (
     <section id="contact" className="py-10">
       <div className="container mx-auto px-4">
-        <div className='border border-white/15 py-24 rounded-xl overflow-hidden relative' style={
+        <div className="border border-white/15 py-24 rounded-xl overflow-hidden relative" style={
           {
             backgroundImage: `url(${stars.src})`
           }
         }>
-        <div className='absolute inset-0 bg-blend-overlay bg-[rgb(74,32,138)] [mask-image:radial-gradient(50%_50%_at_50%_45%,black,transparent)]  'style={{
+        <div className="absolute inset-0 bg-blend-overlay bg-[rgb(74,32,138)] [mask-image:radial-gradient(50%_50%_at_50%_45%,black,transparent)]  "style={{
             backgroundImage: `url(${gridlines.src})`
           }
 
         }></div>
-        <div className='relative'>
-        <h2 className="text-4xl font-bold mb-4 text-center">Let's Connect!</h2>
+        <div className="relative">
+        <h2 className="text-4xl font-bold mb-4 text-center">Let"s Connect!</h2>
         <p className="text-white/70 text-lg max-w-2xl mx-auto tracking-tight md:text-xl text-center mt-5">
           Feel free to contact me for any inquiries, collaborations, or just to say hello. I’m always open to discussing new projects, sharing insights, or exploring opportunities.
         </p>
