@@ -1,8 +1,9 @@
-"use client"
+"use client";
 
 import LogoIcon from "../assets/logo.svg";
 import MenuIcon from "../assets/icon-menu.svg";
 import Button from "@/components/Button";
+import MobileNav from "./MobileNav";
 
 export const Header = () => {
   return (
@@ -32,10 +33,12 @@ export const Header = () => {
             </nav>
           </div>
           <div className="flex gap-4 items-center">
-          <a href="/Rohan Babbar (5).pdf" download="Rohan Babbar.pdf">
+            <a href="/Rohan Babbar (5).pdf" download="Rohan Babbar.pdf">
               <Button>Resume</Button>
             </a>
-            <MenuIcon className="md:hidden" />
+            <div className="md:hidden">
+              <MobileNav />
+            </div>
           </div>
         </div>
       </div>

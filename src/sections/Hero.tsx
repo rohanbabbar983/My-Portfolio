@@ -62,8 +62,8 @@ export const Hero = () => {
           </span>
         </h1>
         <p className="text-lg md:text-xl max-w-xl mx-auto text-white/70 mt-5 text-center">
-          I am a passionate software developer specializing in web development
-          with a focus on MERN Stack.
+          "I am a passionate software developer specializing in web development
+          with a focus on MERN Stack."
         </p>
         <div className="flex justify-center mt-4">
           <Button>Welcome!</Button>
